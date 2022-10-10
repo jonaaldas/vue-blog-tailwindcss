@@ -22,7 +22,7 @@
 	};
 </script>
 <template>
-	<header class="contianer flex flex-col items-center">
+	<header class="contianer flex flex-col items-center w-3/4">
 		<h1 class="text-4xl text-center">Jonathan's Blog</h1>
 		<h3 class="text-2xl text-center text-cyan-900">
 			Things I Love To Talk About!

@@ -2,7 +2,8 @@
 	import { RouterLink, RouterView } from 'vue-router';
 	import Header from './components/Header.vue';
 	import Posts from './components/Posts.vue';
-	const url = 'http://localhost:5002';
+	// const url = 'http://localhost:5002';
+	const url = 'https://json-web-server.adaptable.app';
 	export default {
 		name: 'App',
 		components: {
@@ -70,7 +71,7 @@
 </script>
 
 <template>
-	<header class="container border">
+	<header class="border w-full flex flex-col items-center justify-center">
 		<Header @add-blogPost="addBlogPost" />
 		<Posts :posts="posts" />
 		<!-- <RouterView /> -->

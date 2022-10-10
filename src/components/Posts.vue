@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col items-center">
+	<div class="flex flex-col items-center w-3/4">
 		<div
 			class="w-3/5 rounded-3xl border border-indigo-400 p-3 m-3"
 			v-for="(post, index) in posts"
